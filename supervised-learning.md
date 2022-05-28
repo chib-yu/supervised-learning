@@ -1,5 +1,5 @@
 <h1>Содержание<span class="tocSkip"></span></h1>
-<div class="toc"><ul class="toc-item"><li><span><a href="#Подготовка-данных" data-toc-modified-id="Подготовка-данных-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Подготовка данных</a></span><ul class="toc-item"><li><span><a href="#Открытие-файла-и-изучение-данных" data-toc-modified-id="Открытие-файла-и-изучение-данных-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Открытие файла и изучение данных</a></span></li><li><span><a href="#Подготовка-признаков" data-toc-modified-id="Подготовка-признаков-1.2"><span class="toc-item-num">1.2&nbsp;&nbsp;</span>Подготовка признаков</a></span></li><li><span><a href="#Создание-обучающей,-валидационной-и-тестовой-выборок" data-toc-modified-id="Создание-обучающей,-валидационной-и-тестовой-выборок-1.3"><span class="toc-item-num">1.3&nbsp;&nbsp;</span>Создание обучающей, валидационной и тестовой выборок</a></span></li><li><span><a href="#Выводы-по-п.-1" data-toc-modified-id="Выводы-по-п.-1-1.4"><span class="toc-item-num">1.4&nbsp;&nbsp;</span>Выводы по п. 1</a></span></li></ul></li><li><span><a href="#Исследование-задачи" data-toc-modified-id="Исследование-задачи-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Исследование задачи</a></span><ul class="toc-item"><li><span><a href="#Модель-решающего-дерева" data-toc-modified-id="Модель-решающего-дерева-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Модель решающего дерева</a></span></li><li><span><a href="#Модель-случайного-леса" data-toc-modified-id="Модель-случайного-леса-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Модель случайного леса</a></span></li><li><span><a href="#Логистическая-регрессия" data-toc-modified-id="Логистическая-регрессия-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Логистическая регрессия</a></span></li><li><span><a href="#Сравнение-моделей-разного-типа" data-toc-modified-id="Сравнение-моделей-разного-типа-2.4"><span class="toc-item-num">2.4&nbsp;&nbsp;</span>Сравнение моделей разного типа</a></span></li><li><span><a href="#Выводы-по-п.-2" data-toc-modified-id="Выводы-по-п.-2-2.5"><span class="toc-item-num">2.5&nbsp;&nbsp;</span>Выводы по п. 2</a></span></li></ul></li><li><span><a href="#Борьба-с-дисбалансом" data-toc-modified-id="Борьба-с-дисбалансом-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Борьба с дисбалансом</a></span><ul class="toc-item"><li><span><a href="#Выводы-по-п.-3" data-toc-modified-id="Выводы-по-п.-3-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>Выводы по п. 3</a></span></li></ul></li><li><span><a href="#Тестирование-модели" data-toc-modified-id="Тестирование-модели-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Тестирование модели</a></span><ul class="toc-item"><li><span><a href="#Выводы-по-п.-4" data-toc-modified-id="Выводы-по-п.-4-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Выводы по п. 4</a></span></li></ul></li><li><span><a href="#Выводы-по-проекту" data-toc-modified-id="Выводы-по-проекту-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Выводы по проекту</a></span></li><li><span><a href="#Чек-лист-готовности-проекта" data-toc-modified-id="Чек-лист-готовности-проекта-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>Чек-лист готовности проекта</a></span></li></ul></div>
+<div class="toc"><ul class="toc-item"><li><span><a href="#Подготовка-данных" data-toc-modified-id="Подготовка-данных-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Подготовка данных</a></span><ul class="toc-item"><li><span><a href="#Открытие-файла-и-изучение-данных" data-toc-modified-id="Открытие-файла-и-изучение-данных-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Открытие файла и изучение данных</a></span></li><li><span><a href="#Подготовка-признаков" data-toc-modified-id="Подготовка-признаков-1.2"><span class="toc-item-num">1.2&nbsp;&nbsp;</span>Подготовка признаков</a></span></li><li><span><a href="#Создание-обучающей,-валидационной-и-тестовой-выборок" data-toc-modified-id="Создание-обучающей,-валидационной-и-тестовой-выборок-1.3"><span class="toc-item-num">1.3&nbsp;&nbsp;</span>Создание обучающей, валидационной и тестовой выборок</a></span></li><li><span><a href="#Выводы-по-п.-1" data-toc-modified-id="Выводы-по-п.-1-1.4"><span class="toc-item-num">1.4&nbsp;&nbsp;</span>Выводы по п. 1</a></span></li></ul></li><li><span><a href="#Исследование-задачи" data-toc-modified-id="Исследование-задачи-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Исследование задачи</a></span><ul class="toc-item"><li><span><a href="#Модель-решающего-дерева" data-toc-modified-id="Модель-решающего-дерева-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Модель решающего дерева</a></span></li><li><span><a href="#Модель-случайного-леса" data-toc-modified-id="Модель-случайного-леса-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Модель случайного леса</a></span></li><li><span><a href="#Логистическая-регрессия" data-toc-modified-id="Логистическая-регрессия-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Логистическая регрессия</a></span></li><li><span><a href="#Сравнение-моделей-разного-типа" data-toc-modified-id="Сравнение-моделей-разного-типа-2.4"><span class="toc-item-num">2.4&nbsp;&nbsp;</span>Сравнение моделей разного типа</a></span></li><li><span><a href="#Выводы-по-п.-2" data-toc-modified-id="Выводы-по-п.-2-2.5"><span class="toc-item-num">2.5&nbsp;&nbsp;</span>Выводы по п. 2</a></span></li></ul></li><li><span><a href="#Борьба-с-дисбалансом" data-toc-modified-id="Борьба-с-дисбалансом-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Борьба с дисбалансом</a></span><ul class="toc-item"><li><span><a href="#Модель-решающего-дерева" data-toc-modified-id="Модель-решающего-дерева-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>Модель решающего дерева</a></span><ul class="toc-item"><li><span><a href="#Метод-class_weight" data-toc-modified-id="Метод-class_weight-3.1.1"><span class="toc-item-num">3.1.1&nbsp;&nbsp;</span>Метод class_weight</a></span></li><li><span><a href="#Метод-upsampling" data-toc-modified-id="Метод-upsampling-3.1.2"><span class="toc-item-num">3.1.2&nbsp;&nbsp;</span>Метод upsampling</a></span></li></ul></li><li><span><a href="#Модель-случайного-леса" data-toc-modified-id="Модель-случайного-леса-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>Модель случайного леса</a></span><ul class="toc-item"><li><span><a href="#Метод-class_weight" data-toc-modified-id="Метод-class_weight-3.2.1"><span class="toc-item-num">3.2.1&nbsp;&nbsp;</span>Метод class_weight</a></span></li><li><span><a href="#Метод-upsampling" data-toc-modified-id="Метод-upsampling-3.2.2"><span class="toc-item-num">3.2.2&nbsp;&nbsp;</span>Метод upsampling</a></span></li></ul></li><li><span><a href="#Логистическая-регрессия" data-toc-modified-id="Логистическая-регрессия-3.3"><span class="toc-item-num">3.3&nbsp;&nbsp;</span>Логистическая регрессия</a></span><ul class="toc-item"><li><span><a href="#Метод-class_weight" data-toc-modified-id="Метод-class_weight-3.3.1"><span class="toc-item-num">3.3.1&nbsp;&nbsp;</span>Метод class_weight</a></span></li><li><span><a href="#Метод-upsampling" data-toc-modified-id="Метод-upsampling-3.3.2"><span class="toc-item-num">3.3.2&nbsp;&nbsp;</span>Метод upsampling</a></span></li></ul></li><li><span><a href="#Сравнение-моделей-разного-типа" data-toc-modified-id="Сравнение-моделей-разного-типа-3.4"><span class="toc-item-num">3.4&nbsp;&nbsp;</span>Сравнение моделей разного типа</a></span></li><li><span><a href="#Дообучение-модели-с-наилучшими-гиперпараметрами" data-toc-modified-id="Дообучение-модели-с-наилучшими-гиперпараметрами-3.5"><span class="toc-item-num">3.5&nbsp;&nbsp;</span>Дообучение модели с наилучшими гиперпараметрами</a></span></li><li><span><a href="#Выводы-по-п.-3" data-toc-modified-id="Выводы-по-п.-3-3.6"><span class="toc-item-num">3.6&nbsp;&nbsp;</span>Выводы по п. 3</a></span></li></ul></li><li><span><a href="#Тестирование-модели" data-toc-modified-id="Тестирование-модели-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Тестирование модели</a></span><ul class="toc-item"><li><span><a href="#Выводы-по-п.-4" data-toc-modified-id="Выводы-по-п.-4-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Выводы по п. 4</a></span></li></ul></li><li><span><a href="#Выводы-по-проекту" data-toc-modified-id="Выводы-по-проекту-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Выводы по проекту</a></span></li><li><span><a href="#Чек-лист-готовности-проекта" data-toc-modified-id="Чек-лист-готовности-проекта-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>Чек-лист готовности проекта</a></span></li></ul></div>
 
 # Исследование: Отток клиентов
 
@@ -56,6 +56,7 @@ df.info()
      13  Exited           10000 non-null  int64  
     dtypes: float64(3), int64(8), object(3)
     memory usage: 1.1+ MB
+
 
 
 **Описание данных**
@@ -222,6 +223,8 @@ df.head(n=5)
 - Geography — страна проживания;
 - Gender — пол.
 
+
+
 ### Подготовка признаков
 
 
@@ -262,7 +265,7 @@ df['Tenure'].hist(bins=11)
 
 
     
-![png](output_13_1.png)
+![png](output_16_1.png)
     
 
 
@@ -274,6 +277,7 @@ df['Tenure'].hist(bins=11)
 ```python
 df['Tenure'] = df['Tenure'].fillna(0).astype('int')
 ```
+
 
 Проведено заполнение нулями пропущенных значений в столбце 'Tenure' и замена его типа на целочисленный.
 
@@ -458,13 +462,14 @@ print("features_test.shape:", features_test.shape)
 
 Выборка случайным образом разделена на обучающую (60%), валидационную (20%), тестовую (20%).
 
+
 ## Исследование задачи
 
 
 ```python
 best_models = []
 best_results = []
-best_roc_aucs = []
+best_auc_rocs = []
 ```
 
 Подготовлены списки для сохранения лучших моделей каждого типа.
@@ -475,9 +480,8 @@ best_roc_aucs = []
 ```python
 best_model = None
 best_result = 0
-best_roc_auc = 0
+best_auc_roc = 0
 best_depth = None
-
 
 for depth in range(1, 31):
     
@@ -485,25 +489,29 @@ for depth in range(1, 31):
     model.fit(features_train, target_train) # обучение модели
     predicted_valid = model.predict(features_valid) # получение предсказания модели
     result = f1_score(target_valid, predicted_valid) # подсчет качества модели на валидационной выборке
-    roc_auc = roc_auc_score(target_valid, predicted_valid)
+    probabilities_valid = model.predict_proba(features_valid)
+    probabilities_one_valid = probabilities_valid[:, 1]
+    auc_roc = roc_auc_score(target_valid, probabilities_one_valid)
+    
     if result > best_result:
         best_model = model # сохранение наилучшей модели
         best_result = result # сохранение наилучшего значения F1-меры на валидационных данных
-        best_roc_auc = roc_auc # сохранение значения ROC AUC наилучшей модели
+        best_auc_roc = auc_roc # сохранение значения ROC AUC наилучшей модели
         best_depth = depth # сохранение параметра max_depth наилучшей модели
         
 best_models.append(best_model)
 best_results.append(best_result)
-best_roc_aucs.append(best_roc_auc)
+best_auc_rocs.append(best_auc_roc)
 
 print("F1-мера лучшей модели решающего дерева на валидационной выборке:", best_result)
-print("ROC AUC мера лучшей модели решающего дерева на валидационной выборке:", best_roc_auc)
+print("ROC AUC мера лучшей модели решающего дерева на валидационной выборке:", best_auc_roc)
 print("Глубина лучшей модели решающего дерева:", best_depth)
 ```
 
     F1-мера лучшей модели решающего дерева на валидационной выборке: 0.5488958990536277
-    ROC AUC мера лучшей модели решающего дерева на валидационной выборке: 0.7010645044896117
+    ROC AUC мера лучшей модели решающего дерева на валидационной выборке: 0.8275652142122556
     Глубина лучшей модели решающего дерева: 7
+
 
 
 ### Модель случайного леса
@@ -512,7 +520,7 @@ print("Глубина лучшей модели решающего дерева:
 ```python
 best_model = None
 best_result = 0
-best_roc_auc = 0
+best_auc_roc = 0
 best_depth = None
 best_est = None
 
@@ -522,27 +530,32 @@ for est in range(10, 101, 10):
         model.fit(features_train, target_train) # обучение модели на тренировочной выборке
         predicted_valid = model.predict(features_valid) # получение предсказания модели
         result = f1_score(target_valid, predicted_valid) # подсчет качества модели на валидационной выборке
+        probabilities_valid = model.predict_proba(features_valid)
+        probabilities_one_valid = probabilities_valid[:, 1]
+        auc_roc = roc_auc_score(target_valid, probabilities_one_valid)
+        
         if result > best_result:
             best_model = model # сохранение наилучшей модели
             best_result = result # сохранение наилучшего значения F1-меры на валидационных данных
-            best_roc_auc = roc_auc # сохранение значения ROC AUC наилучшей модели
+            best_auc_roc = auc_roc # сохранение значения ROC AUC наилучшей модели
             best_est = est # сохранение параметра n_estimators наилучшей модели
             best_depth = depth # сохранение параметра max_depth наилучшей модели
         
 best_models.append(best_model)
 best_results.append(best_result)
-best_roc_aucs.append(best_roc_auc)
+best_auc_rocs.append(best_auc_roc)
 
 print("F1-мера наилучшей модели случайного леса на валидационной выборке:", best_result)
-print("ROC AUC мера лучшей модели случайного леса на валидационной выборке:", best_roc_auc)
+print("ROC AUC мера лучшей модели случайного леса на валидационной выборке:", best_auc_roc)
 print("Число деревьев лучшей модели случайного леса:", best_est)
 print("Глубина деревьев лучшей модели случайного леса:", best_depth)
 ```
 
     F1-мера наилучшей модели случайного леса на валидационной выборке: 0.5736925515055468
-    ROC AUC мера лучшей модели случайного леса на валидационной выборке: 0.6794414093359126
+    ROC AUC мера лучшей модели случайного леса на валидационной выборке: 0.8405786504619953
     Число деревьев лучшей модели случайного леса: 40
     Глубина деревьев лучшей модели случайного леса: 23
+
 
 
 ### Логистическая регрессия
@@ -553,18 +566,20 @@ model = LogisticRegression(random_state=12345, solver='liblinear')
 model.fit(features_train, target_train) # обучение модели на тренировочной выборке
 predicted_valid = model.predict(features_valid) # получение предсказания модели
 result = f1_score(target_valid, predicted_valid) # F1-мера качества модели на валидационной выборке
-roc_auc = roc_auc_score(target_valid, predicted_valid) # ROC AUC мера качества модели на валидационной выборке
+probabilities_valid = model.predict_proba(features_valid)
+probabilities_one_valid = probabilities_valid[:, 1]
+auc_roc = roc_auc_score(target_valid, probabilities_one_valid)
 
 best_models.append(model)
 best_results.append(result)
-best_roc_aucs.append(roc_auc)
+best_auc_rocs.append(auc_roc)
 
 print("F1-мера модели логистической регрессии на валидационной выборке:", result)
-print("ROC AUC мера модели логистической регрессии на валидационной выборке:", roc_auc)
+print("ROC AUC мера модели логистической регрессии на валидационной выборке:", auc_roc)
 ```
 
     F1-мера модели логистической регрессии на валидационной выборке: 0.10290827740492169
-    ROC AUC мера модели логистической регрессии на валидационной выборке: 0.519156948049574
+    ROC AUC мера модели логистической регрессии на валидационной выборке: 0.6812399561927076
 
 
 ### Сравнение моделей разного типа
@@ -573,15 +588,15 @@ print("ROC AUC мера модели логистической регресси
 ```python
 very_best_result = max(best_results)
 very_best_model = best_models[best_results.index(very_best_result)]
-very_best_roc_auc = best_roc_aucs[best_results.index(very_best_result)]
+very_best_auc_roc = best_auc_rocs[best_results.index(very_best_result)]
 print('Наилучшая из опробованных моделей:', very_best_model, 
       '\nее F1-мера -', very_best_result, 
-      '\nее ROC AUC мера -', very_best_roc_auc)
+      '\nее ROC AUC мера -', very_best_auc_roc)
 ```
 
     Наилучшая из опробованных моделей: RandomForestClassifier(max_depth=23, n_estimators=40, random_state=12345) 
     ее F1-мера - 0.5736925515055468 
-    ее ROC AUC мера - 0.6794414093359126
+    ее ROC AUC мера - 0.8405786504619953
 
 
 ### Выводы по п. 2
@@ -591,7 +606,8 @@ print('Наилучшая из опробованных моделей:', very_b
 - модель случайного леса с числом оценщиков от 10 до 100 с шагом 10 и максимальной глубиной 30;
 - модель логистической регрессии.
 
-Наилучшее значение F1-меры на валидационной выборке дала модель случайного леса с 40 деревьями и максимальной глубиной 23. Ее F1-score = 0.5737, ROC AUC мера - 0.6794. Целевое значение F1-меры 0.59 не достигнуто.
+Наилучшее значение F1-меры на валидационной выборке дала модель случайного леса с 40 деревьями и максимальной глубиной 23. Ее F1-score = 0.5737, ROC AUC мера - 0.8406. Целевое значение F1-меры 0.59 не достигнуто.
+
 
 ## Борьба с дисбалансом
 
@@ -609,22 +625,7 @@ df['Exited'].value_counts()
 
 
 
-Имеется дисбаланс в данных - в целевом столбце единица встречается в 4 раза реже, чем 0. Решено провести upsampling данных с единицей в целевом столбце.
-
-
-```python
-model = LogisticRegression(random_state=12345, solver='liblinear', class_weight='balanced')
-model.fit(features_train, target_train)
-predicted_valid = model.predict(features_valid)
-print("F1:", f1_score(target_valid, predicted_valid))
-print("ROC AUC:", roc_auc_score(target_valid, predicted_valid))
-```
-
-    F1: 0.4754521963824289
-    ROC AUC: 0.6994296786458525
-
-
-У модели логистической регрессии с параметром class_weight='balanced' существенно повысилось значение F1-меры, однако оно все равно не достигает целевого значения 0.59.
+Имеется дисбаланс в данных - в целевом столбце единица встречается в 4 раза реже, чем 0.
 
 
 ```python
@@ -643,37 +644,147 @@ def upsample(features, target, repeat):
 features_upsampled, target_upsampled = upsample(features_train, target_train, 4)
 ```
 
-### Выводы по п. 3
-- Имеется дисбаланс в данных - в целевом столбце единица встречается в 4 раза реже, чем 0. 
-- У модели логистической регрессии с параметром class_weight='balanced' существенно повысилось значение F1-меры, однако оно все равно не достигает целевого значения 0.59.
-- Проведен upsampling данных с единицей в целевом столбце. Решено исследовать модель случайного леса, лучше всего показавшую себя на исходных данных.
-
-## Тестирование модели
+Решено сравнить методы upsample и class_weight. Проведен upsampling данных.
 
 
 ```python
-very_best_model.fit(features_upsampled, target_upsampled) # обучение модели на тренировочной выборке
-predicted_valid = very_best_model.predict(features_valid) # получение предсказания модели
-result = f1_score(target_valid, predicted_valid) # подсчет качества модели на валидационной выборке 
-roc_auc = roc_auc_score(target_valid, predicted_valid) # подсчет ROC AUC меры модели на валидационной выборке 
-
-print("F1-мера наилучшей модели случайного леса после переобучения на сбалансированной выборке:", result)
-print("ROC AUC мера наилучшей модели случайного леса после переобучения на сбалансированной выборке:", roc_auc)
+best_models = []
+best_results = []
+best_auc_rocs = []
 ```
 
-    F1-мера наилучшей модели случайного леса после переобучения на сбалансированной выборке: 0.5859154929577465
-    ROC AUC мера наилучшей модели случайного леса после переобучения на сбалансированной выборке: 0.7314911805238754
+### Модель решающего дерева
 
-
-F1-мера модели случайного леса с гиперпараметрами, давшими наилучший результат на исходной тестовой выборке, после обучения на сбалансированной выборке увеличилась с 0.5737 до 0.5859, но не достигла целевого значения 0.59.
-
-Решено оставить модель случайного леса, но заново провести подбор гиперпараметров.
+#### Метод class_weight
 
 
 ```python
 best_model = None
 best_result = 0
-best_roc_auc = 0
+best_auc_roc = 0
+best_depth = None
+
+for depth in range(1, 31):
+    
+    model = DecisionTreeClassifier(random_state=12345, max_depth=depth, class_weight='balanced') # обучение модели с заданной глубиной дерева
+    model.fit(features_train, target_train) # обучение модели
+    predicted_valid = model.predict(features_valid) # получение предсказания модели
+    result = f1_score(target_valid, predicted_valid) # подсчет качества модели на валидационной выборке
+    probabilities_valid = model.predict_proba(features_valid)
+    probabilities_one_valid = probabilities_valid[:, 1]
+    auc_roc = roc_auc_score(target_valid, probabilities_one_valid)
+    
+    if result > best_result:
+        best_model = model # сохранение наилучшей модели
+        best_result = result # сохранение наилучшего значения F1-меры на валидационных данных
+        best_auc_roc = auc_roc # сохранение значения ROC AUC наилучшей модели
+        best_depth = depth # сохранение параметра max_depth наилучшей модели
+        
+best_models.append(best_model)
+best_results.append(best_result)
+best_auc_rocs.append(best_auc_roc)
+
+print("F1-мера лучшей модели решающего дерева на валидационной выборке:", best_result)
+print("ROC AUC мера лучшей модели решающего дерева на валидационной выборке:", best_auc_roc)
+print("Глубина лучшей модели решающего дерева:", best_depth)
+```
+
+    F1-мера лучшей модели решающего дерева на валидационной выборке: 0.5587044534412956
+    ROC AUC мера лучшей модели решающего дерева на валидационной выборке: 0.8089018134883863
+    Глубина лучшей модели решающего дерева: 6
+
+
+#### Метод upsampling
+
+
+```python
+best_model = None
+best_result = 0
+best_auc_roc = 0
+best_depth = None
+
+for depth in range(1, 31):
+    
+    model = DecisionTreeClassifier(random_state=12345, max_depth=depth) # обучение модели с заданной глубиной дерева
+    model.fit(features_upsampled, target_upsampled) # обучение модели
+    predicted_valid = model.predict(features_valid) # получение предсказания модели
+    result = f1_score(target_valid, predicted_valid) # подсчет качества модели на валидационной выборке
+    probabilities_valid = model.predict_proba(features_valid)
+    probabilities_one_valid = probabilities_valid[:, 1]
+    auc_roc = roc_auc_score(target_valid, probabilities_one_valid)
+    
+    if result > best_result:
+        best_model = model # сохранение наилучшей модели
+        best_result = result # сохранение наилучшего значения F1-меры на валидационных данных
+        best_auc_roc = auc_roc # сохранение значения ROC AUC наилучшей модели
+        best_depth = depth # сохранение параметра max_depth наилучшей модели
+        
+best_models.append(best_model)
+best_results.append(best_result)
+best_auc_rocs.append(best_auc_roc)
+
+print("F1-мера лучшей модели решающего дерева на валидационной выборке:", best_result)
+print("ROC AUC мера лучшей модели решающего дерева на валидационной выборке:", best_auc_roc)
+print("Глубина лучшей модели решающего дерева:", best_depth)
+```
+
+    F1-мера лучшей модели решающего дерева на валидационной выборке: 0.5587044534412956
+    ROC AUC мера лучшей модели решающего дерева на валидационной выборке: 0.8088890972931989
+    Глубина лучшей модели решающего дерева: 6
+
+
+### Модель случайного леса
+
+#### Метод class_weight
+
+
+```python
+best_model = None
+best_result = 0
+best_auc_roc = 0
+best_depth = None
+best_est = None
+
+for est in range(10, 101, 10):
+    for depth in range(1, 31):
+        model = RandomForestClassifier(random_state=12345, n_estimators=est, max_depth=depth, class_weight='balanced') # обучение модели с заданным количеством деревьев
+        model.fit(features_train, target_train) # обучение модели на тренировочной выборке
+        predicted_valid = model.predict(features_valid) # получение предсказания модели
+        result = f1_score(target_valid, predicted_valid) # подсчет качества модели на валидационной выборке
+        probabilities_valid = model.predict_proba(features_valid)
+        probabilities_one_valid = probabilities_valid[:, 1]
+        auc_roc = roc_auc_score(target_valid, probabilities_one_valid)
+        
+        if result > best_result:
+            best_model = model # сохранение наилучшей модели
+            best_result = result # сохранение наилучшего значения F1-меры на валидационных данных
+            best_auc_roc = auc_roc # сохранение значения ROC AUC наилучшей модели
+            best_est = est # сохранение параметра n_estimators наилучшей модели
+            best_depth = depth # сохранение параметра max_depth наилучшей модели
+        
+best_models.append(best_model)
+best_results.append(best_result)
+best_auc_rocs.append(best_auc_roc)
+
+print("F1-мера наилучшей модели случайного леса на валидационной выборке:", best_result)
+print("ROC AUC мера лучшей модели случайного леса на валидационной выборке:", best_auc_roc)
+print("Число деревьев лучшей модели случайного леса:", best_est)
+print("Глубина деревьев лучшей модели случайного леса:", best_depth)
+```
+
+    F1-мера наилучшей модели случайного леса на валидационной выборке: 0.6045918367346939
+    ROC AUC мера лучшей модели случайного леса на валидационной выборке: 0.8514684821154662
+    Число деревьев лучшей модели случайного леса: 90
+    Глубина деревьев лучшей модели случайного леса: 10
+
+
+#### Метод upsampling
+
+
+```python
+best_model = None
+best_result = 0
+best_auc_roc = 0
 best_depth = None
 best_est = None
 
@@ -683,68 +794,152 @@ for est in range(10, 101, 10):
         model.fit(features_upsampled, target_upsampled) # обучение модели на тренировочной выборке
         predicted_valid = model.predict(features_valid) # получение предсказания модели
         result = f1_score(target_valid, predicted_valid) # подсчет качества модели на валидационной выборке
+        probabilities_valid = model.predict_proba(features_valid)
+        probabilities_one_valid = probabilities_valid[:, 1]
+        auc_roc = roc_auc_score(target_valid, probabilities_one_valid)
+
         if result > best_result:
             best_model = model # сохранение наилучшей модели
             best_result = result # сохранение наилучшего значения F1-меры на валидационных данных
-            best_roc_auc = roc_auc # сохранение значения ROC AUC наилучшей модели
+            best_auc_roc = auc_roc # сохранение значения ROC AUC наилучшей модели
             best_est = est # сохранение параметра n_estimators наилучшей модели
             best_depth = depth # сохранение параметра max_depth наилучшей модели
-        
+            
+best_models.append(best_model)
+best_results.append(best_result)
+best_auc_rocs.append(best_auc_roc)
+
 print("F1-мера наилучшей модели случайного леса на валидационной выборке:", best_result)
-print("ROC AUC мера лучшей модели случайного леса на валидационной выборке:", best_roc_auc)
+print("ROC AUC мера лучшей модели случайного леса на валидационной выборке:", best_auc_roc)
 print("Число деревьев лучшей модели случайного леса:", best_est)
 print("Глубина деревьев лучшей модели случайного леса:", best_depth)
 ```
 
     F1-мера наилучшей модели случайного леса на валидационной выборке: 0.6040268456375838
-    ROC AUC мера лучшей модели случайного леса на валидационной выборке: 0.7314911805238754
+    ROC AUC мера лучшей модели случайного леса на валидационной выборке: 0.8433452176774187
     Число деревьев лучшей модели случайного леса: 60
     Глубина деревьев лучшей модели случайного леса: 15
 
 
-Наилучшее значение F1-меры на валидационной выборке (0.6040) получено с помощью модели случайного леса с числом деревьев 60 и максимальной глубиной 15.
+### Логистическая регрессия
+
+#### Метод class_weight
 
 
 ```python
-predicted_test = model.predict(features_test) # получение предсказания модели
-result = f1_score(target_test, predicted_test) # подсчет качества модели на тестовой выборке
-roc_auc = roc_auc_score(target_test, predicted_test) # подсчет ROC AUC меры на тестовой выборке
-print("F1-мера лучшей модели случайного леса на тестовой выборке:", result)
-print("ROC AUC мера лучшей модели случайного леса на тестовой выборке:", roc_auc)
+model = LogisticRegression(random_state=12345, solver='liblinear', class_weight='balanced')
+model.fit(features_train, target_train)
+predicted_valid = model.predict(features_valid)
+result = f1_score(target_valid, predicted_valid)
+probabilities_valid = model.predict_proba(features_valid)
+probabilities_one_valid = probabilities_valid[:, 1]
+auc_roc = roc_auc_score(target_valid, probabilities_one_valid)
+
+best_models.append(model)
+best_results.append(result)
+best_auc_rocs.append(auc_roc)
+
+print("F1:", result)
+print("ROC AUC:", auc_roc)
 ```
 
-    F1-мера лучшей модели случайного леса на тестовой выборке: 0.5947368421052632
-    ROC AUC мера лучшей модели случайного леса на тестовой выборке: 0.7306255592395683
+    F1: 0.4773310521813516
+    ROC AUC: 0.7694108745722192
 
 
-Значение F1-меры полученной модели на тестовой выборке равно 0.5947 и превосходит целевое значение 0.59.
-Значение ROC AUC меры полученной модели на тестовой выборке равно 0.7306.
+#### Метод upsampling
 
 
 ```python
-features_train_valid_upsampled, target_train_valid_upsampled = upsample(features_train_valid, target_train_valid, 4)
+model = LogisticRegression(random_state=12345, solver='liblinear')
+model.fit(features_upsampled, target_upsampled)
+predicted_valid = model.predict(features_valid)
+result = f1_score(target_valid, predicted_valid)
+probabilities_valid = model.predict_proba(features_valid)
+probabilities_one_valid = probabilities_valid[:, 1]
+auc_roc = roc_auc_score(target_valid, probabilities_one_valid)
 
-new_model = RandomForestClassifier(random_state=12345, n_estimators=60, max_depth=15) # обучение модели с заданным количеством деревьев
-new_model.fit(features_train_valid_upsampled, target_train_valid_upsampled) # обучение модели на тренировочной выборке
-new_predicted_valid = model.predict(features_valid) # получение предсказания модели
-result = f1_score(target_valid, predicted_valid) # подсчет качества модели на валидационной выборке
+best_models.append(model)
+best_results.append(result)
+best_auc_rocs.append(auc_roc)
+
+print("F1:", result)
+print("ROC AUC:", auc_roc)
+```
+
+    F1: 0.43423137876386686
+    ROC AUC: 0.7170344561203843
+
+
+### Сравнение моделей разного типа
+
+У модели решающего дерева методы upsample и class_weight дали одинаковые значения F1-меры. У моделей случайного леса и логистической регрессии лучшие значения F1-меры были получены при использовании метода class_weight.
+
+
+```python
+very_best_result = max(best_results)
+very_best_model = best_models[best_results.index(very_best_result)]
+very_best_auc_roc = best_auc_rocs[best_results.index(very_best_result)]
+print('Наилучшая из опробованных моделей:', very_best_model, 
+      '\nее F1-мера -', very_best_result, 
+      '\nее ROC AUC мера -', very_best_auc_roc)
+```
+
+    Наилучшая из опробованных моделей: RandomForestClassifier(class_weight='balanced', max_depth=10, n_estimators=90,
+                           random_state=12345) 
+    ее F1-мера - 0.6045918367346939 
+    ее ROC AUC мера - 0.8514684821154662
+
+
+### Дообучение модели с наилучшими гиперпараметрами
+
+
+```python
+very_best_model.fit(features_train_valid, target_train_valid)
+```
+
+
+
+
+    RandomForestClassifier(class_weight='balanced', max_depth=10, n_estimators=90,
+                           random_state=12345)
+
+
+
+Модель с указанными гиперпараметрами повторно обучена на объединении валидационной и тестовой выборок.
+
+### Выводы по п. 3
+- Имеется дисбаланс в данных - в целевом столбце единица встречается в 4 раза реже, чем 0.
+- Проведено сравнение методов upsample и class_weight для моделей 3 типов.
+- У модели решающего дерева методы upsample и class_weight дали одинаковые значения F1-меры. У моделей случайного леса и логистической регрессии лучшие значения F1-меры были получены при использовании метода class_weight.
+- Наилучшая из опробованных моделей - случайного леса с гиперпараметрами class_weight='balanced', max_depth=10, n_estimators=90, обученная на тренировочной  выборке. Ее F1-мера на валидационной выборке - 0.6046.
+- Модель с указанными гиперпараметрами повторно обучена на объединении тренировочной и валидационной выборок.
+
+
+## Тестирование модели
+
+
+```python
+predicted_test = very_best_model.predict(features_test) # получение предсказания модели
+result = f1_score(target_test, predicted_test) # подсчет качества модели на валидационной выборке
+
+probabilities_test = very_best_model.predict_proba(features_test)
+probabilities_one_test = probabilities_test[:, 1]
+auc_roc = roc_auc_score(target_test, probabilities_one_test)
 
 print("F1-мера модели случайного леса на тестовой выборке:", result)
-print("ROC AUC мера модели случайного леса на тестовой выборке:", roc_auc)
+print("ROC AUC мера модели случайного леса на тестовой выборке:", auc_roc)
 ```
 
-    F1-мера модели случайного леса на тестовой выборке: 0.5770308123249299
-    ROC AUC мера модели случайного леса на тестовой выборке: 0.7306255592395683
+    F1-мера модели случайного леса на тестовой выборке: 0.6326530612244897
+    ROC AUC мера модели случайного леса на тестовой выборке: 0.8641060876530325
 
 
-Модель с наилучшими гиперпараметрами была обучена на объединении тестовых и валидационных данных, подвергнутых upsampling. F1-мера данной модели (0.5770) оказалась ниже, чем у модели, обученной на тестовой выборке. Возможно, это произошло из-за влияния случайных факторов в ходе создания выборки.
 
 ### Выводы по п. 4
-- F1-мера модели случайного леса с гиперпараметрами, давшими наилучший результат на исходной тестовой выборке, после обучения на сбалансированной выборке увеличилась, но не достигла целевого значения 0.59. Решено оставить модель случайного леса, но заново провести подбор гиперпараметров.
-- С помощью валидационной выборки опрелены наилучшие гиперпараметры модели случайного леса: число деревьев 60, максимальная глубина 15.
-- Значение F1-меры данной модели на тестовой выборке равно 0.5947 и превосходит целевое значение 0.59.
-Значение ROC AUC меры полученной модели на тестовой выборке равно 0.7306.
-- Модель с наилучшими гиперпараметрами была обучена на сбалансированном объединении обучающих и валидационных данных. F1-мера данной модели (0.5770) оказалась ниже, чем у модели, обученной на тестовой выборке. Возможно, это произошло из-за влияния случайных факторов в ходе создания выборки.
+- F1-мера наилучшей из опробованных моделей (случайного леса с гиперпараметрами class_weight='balanced', max_depth=10, n_estimators=90, обученная на объединении тренировочной и валидационной выборок) на тестовой выборке равна 0.6327 и достигает целевого значения 0.59. 
+- Ее ROC AUC мера равна 0.8641.
+
 
 ## Выводы по проекту
 
@@ -756,13 +951,13 @@ print("ROC AUC мера модели случайного леса на тест
 - Выборка разделена на обучающую (60%), валидационную (20%), тестовую (20%).
 - Обучены 3 типа моделей с различными гиперпараметрами: решающее дерево глубиной, модель случайного леса, модель логистической регрессии.
 - Наилучшее значение F1-меры на валидационной выборке дала модель случайного леса с 40 деревьями и максимальной глубиной 23. Целевое значение F1-меры 0.59 не достигнуто.
-- Обнаружен дисбаланс классов - в целевом столбце единица встречается в 4 раза реже, чем 0. 
-- У модели логистической регрессии с параметром class_weight='balanced' существенно повысилось значение F1-меры, однако оно все равно не достигает целевого значения 0.59.
-- Проведен upsampling данных с единицей в целевом столбце. Решено исследовать модель случайного леса, лучше всего показавшую себя на исходных данных.
-- С помощью сбалансированной валидационной выборки опрелены наилучшие гиперпараметры модели случайного леса: число деревьев 60, максимальная глубина 15.
-- Значение F1-меры данной модели на тестовой выборке равно 0.5947 и превосходит целевое значение 0.59.
-Значение ROC AUC меры полученной модели на тестовой выборке равно 0.7306.
+- Обнаружен дисбаланс в данных - в целевом столбце единица встречается в 4 раза реже, чем 0. Проведено сравнение методов upsample и class_weight для моделей 3 типов.
+- У модели решающего дерева методы upsample и class_weight дали одинаковые значения F1-меры. У моделей случайного леса и логистической регрессии лучшие значения F1-меры были получены при использовании метода class_weight.
+- Наилучшая из опробованных моделей - случайного леса с гиперпараметрами class_weight='balanced', max_depth=10, n_estimators=90. Модель с указанными гиперпараметрами повторно обучена на объединении обучающей и валидационной выборок.
+- F1-мера наилучшей из опробованных моделей на тестовой выборке равна 0.6327 и достигает целевого значения 0.59. Ее ROC AUC мера равна 0.8541.
 - Для всех исследованных случаев значение ROC AUC меры оказывалось несколько выше значения F1-меры.
+
+
 
 ## Чек-лист готовности проекта
 
